@@ -6,7 +6,11 @@ namespace Lab2GitTestConsoleApp2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var s = new TestClass
+            {
+                TestProperty = "TestValue"
+            };
+            Console.WriteLine(s.TestProperty);
         }
     }
 }
